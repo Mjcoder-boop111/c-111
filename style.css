@@ -1,0 +1,72 @@
+body{
+    font-family: 'Fredoka One', cursive;
+    background-color: skyblue;
+}
+.header_div{
+    background-color: rgb(23, 172, 72);
+    color: black;
+    font-variant: small-caps;
+}
+.header_div img{
+    width: 100px;
+}
+.main_div{
+    background-image: linear-gradient( #32a897, #3236a8);
+    padding: 10px;
+    margin-top: 15px;
+    border: 3px dashed green;
+}
+
+.main_div label{
+    background-color: darkgray;
+    width: 310px;
+    padding: 10px;
+    margin-bottom: 0px;
+    box-shadow: 5px 5px 18px rgb(199, 21, 21);
+}
+#camera, #result{
+    width: 310px;
+    height: 310px;
+    border: 2px dotted rgb(104, 172, 211);
+    box-shadow: 5px 5px 18px blanchedalmond;
+}
+
+.main_div button{
+    width: 310px;
+    font-size: 16px;
+    box-shadow: 5px 5px 15px rgb(223, 11, 11);
+    margin-top:6px;
+    border: 1px groove rgb(33, 107, 89);
+}
+
+.footer_div{
+    margin-bottom: 50px;
+}
+.footer_div h4{
+    background-color: chartreuse;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 5px 5px 18px rgb(43, 205, 226);
+    text-align: center;
+    font-variant: small-caps;
+}
+.footer_div img{
+    height: 40px;
+    width : 50px;
+    border-style: initial;
+    
+}
+.copy_right_footer{
+    position: fixed;
+    color: lavenderblush;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(23, 172, 72) ;
+        line-height: 3;
+    text-align: center;
+    font-family: 'Yellowtail', cursive; 
+}
+
+h6, h7, h8, h9{
+    font-size: 40px;
+}
